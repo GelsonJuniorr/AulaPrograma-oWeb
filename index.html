@@ -9,19 +9,22 @@
   <script src="script.js" defer></script>
 </head>
 <body>
+  <!-- Skip link para acessibilidade -->
+  <a href="#conteudo" class="skip-link">Ir para o conteúdo principal</a>
+
   <header>
-    <nav>
-      
+    <nav aria-label="Menu principal">
+      <ul>
         <li><button onclick="navegar('inicio')">Início</button></li>
         <li><button onclick="navegar('projetos')">Projetos</button></li>
         <li><button onclick="navegar('cadastro')">Cadastro</button></li>
-      
+      </ul>
     </nav>
   </header>
 
-  <main>
-    <div id="conteudo">
-     
+  <main id="conteudo">
+    <div>
+      <img src="imagens/amigao.png" alt="Logo da ONG Amigão" width="200" height="200" loading="lazy" />
     </div>
   </main>
 

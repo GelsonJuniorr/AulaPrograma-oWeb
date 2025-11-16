@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-   <link rel="icon" href="imagens/amigao.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="imagens/amigao.png" type="image/x-icon">
   <title>ONG Amigão</title>
+  <script src="script.js" defer></script>
 </head>
 <body>
-<script src="script.js"></script>
+  <!-- Skip link para acessibilidade -->
+  <a href="#conteudo" class="skip-link">Ir para o conteúdo principal</a>
+
   <header>
-    <nav>
-     
+    <nav aria-label="Menu principal">
+      <ul>
         <li><a href="index.html">Início</a></li>
         <li><a href="projeto.html">Projetos</a></li>
         <li><a href="cadastro.html">Cadastro</a></li>
-    
+      </ul>
     </nav>
   </header>
 
-  <br>
+  <main id="conteudo">
+    <section>
+      <h1>ONG Amigão</h1>
+      <h2>📌 Nosso Projeto</h2>
+      <p>A ONG Amigão é uma organização dedicada ao resgate, proteção e reabilitação de animais em situação de abandono ou maus-tratos.</p>
+    </section>
 
-<h1>ONG Amigão</h1>
-  <h2>📌Nosso Projeto</h2>
-  <p> A ONG Amigão é uma organização dedicada ao resgate, proteção e reabilitação de animais em situação de abandono ou maus-tratos.</p>
+    <hr>
 
-  <br><hr><br>
+    <section>
+      <h2>🎄 Campanha de Natal</h2>
+      <p>Neste Natal, a ONG Amigão lança o projeto “Natal de Patinhas”, uma campanha solidária que busca levar carinho, cuidados e esperança aos animais resgatados que ainda esperam por um lar.</p>
+      <div style="text-align: center;">
+        <img src="imagens/buddy.jpeg" alt="Cão em ensaio de natal" width="150" height="150" loading="lazy" style="margin: 10px; border-radius: 8px;">
+        <img src="imagens/bob.jpeg" alt="Cachorro com a coberta na cabeça" width="150" height="150" loading="lazy" style="margin: 10px; border-radius: 8px;">
+        <img src="imagens/cereja.jpeg" alt="Cachorro mordendo um brinquedo em forma de picolé" width="150" height="150" loading="lazy" style="margin: 10px; border-radius: 8px;">
+        <img src="imagens/amora.jpeg" alt="Cachorro com roupinha" width="150" height="150" loading="lazy" style="margin: 10px; border-radius: 8px;">
+      </div>
+    </section>
 
-  <h2>🎄Campanha de Natal</h2>
-  <p>
+    <hr>
 
-  Neste Natal, a ONG Amigão lança o projeto “Natal de Patinhas”, uma campanha solidária que busca levar carinho, cuidados e esperança aos animais resgatados que ainda esperam por um lar.
-  <div style="text-align: center;">
-  <img src="imagens/buddy.jpeg" alt="Cão em ensaio de natal" style="width: 150px; margin: 10px; border-radius: 8px;">
-  <img src="imagens/bob.jpeg" alt="cachorro com a coberta na cabeça" style="width: 150px; margin: 10px; border-radius: 8px;">
-  <img src="imagens/cereja.jpeg" alt="Cachorro mordendo um brinquedo em forma de picolé" style="width: 150px; margin: 10px; border-radius: 8px;">
-  <img src="imagens/amora.jpeg" alt="Cachorro com roupinha" style="width: 150px; margin: 10px; border-radius: 8px;">
-</div>
-</p>
+    <section>
+      <h2>📒 Projeto Educacional</h2>
+      <p>A ONG Amigão desenvolveu o projeto “Educar para Cuidar”. A iniciativa leva palestras, oficinas e atividades interativas a escolas e comunidades, com o objetivo de ensinar crianças e jovens sobre respeito aos animais, guarda responsável, prevenção ao abandono e bem-estar animal.</p>
+    </section>
 
-  <br><hr><br>
+    <hr>
 
-  <h2>📒Projeto Educacional</h2>
-  <p>
-    A ONG Amigão desenvolveu o projeto “Educar para Cuidar”. A iniciativa leva palestras, oficinas e atividades interativas a escolas e comunidades, com o objetivo de ensinar crianças e jovens sobre respeito aos animais, guarda responsável, prevenção ao abandono e bem-estar animal.
-  </p>
-
-  <br><hr><br>
-
-  <h2>Contato com a ONG Amigão</h2>
-  <address>
-    <p>Endereço: Rua Jabuti, 123 - Bairro Santa Felicidade - Curitiba/PR</p>
-    <p>☎️ Telefone: (41) 4002-8922</p>
-    <p>✉️Email: contato@ongamigao.org.br</p>
-  </address>
-
-  <br><hr><br>
+    <section>
+      <h2>Contato com a ONG Amigão</h2>
+      <address>
+        <p>Endereço: Rua Jabuti, 123 - Bairro Santa Felicidade - Curitiba/PR</p>
+        <p>☎️ Telefone: (41) 4002-8922</p>
+        <p>✉️ Email: contato@ongamigao.org.br</p>
+      </address>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2025 ONG Amigão</p>
   </footer>
-
+  
 </body>
 </html>

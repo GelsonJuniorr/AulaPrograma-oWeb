@@ -33,3 +33,80 @@ img:hover {
   transition: transform 0.3s ease;
 }
 
+/* Skip link para acessibilidade */
+.skip-link {
+  position: absolute;
+  left: -999px;
+}
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+  background: #000;
+  color: #fff;
+  padding: 8px;
+  z-index: 1000;
+}
+
+/* Foco visível em botões e inputs */
+button:focus, input:focus {
+  outline: 3px solid #1E90FF;
+  outline-offset: 2px;
+}
+
+/* Estilização dos formulários */
+.form-box {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ffcc70;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.form-box label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.form-box button 
+  width: 100%;
+
+/* Imagens dentro das seções de projetos */
+main img {
+  margin: 10px;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Centralização das galerias de imagens */
+main div {
+  text-align: center;
+}
+
+/* Seções de conteúdo */
+section {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+}
+
+/* Separadores visuais */
+hr {
+  border: none;
+  border-top: 2px solid #ffcc70;
+  margin: 30px 0;
+}
